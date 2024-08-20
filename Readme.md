@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new lovecalculatorQueryOptions {
+var queryOptions = new LoveCalculatorQueryOptions {
   name1 = "John",
   name2 = "Jane"
 };
@@ -100,7 +100,8 @@ if(response.error != null) {
     "lovePercentage": "62%",
     "response": "You have good chemistry. Keep getting to know each other and see where it leads.",
     "additionalText": "The love percentage between Jane and John is 62%."
-  }
+  },
+  "code": 200
 }
 ```
 
